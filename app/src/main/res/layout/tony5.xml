@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:padding="16dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/first"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/arrowImageView"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/menuu"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="16dp"/>
+
+
+        <TextView
+            android:id="@+id/fifthTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            android:textAlignment="center"
+            android:text="EXPLORE"
+            android:layout_marginTop="2dp"/>
+
+
+
+        <ImageView
+            android:id="@+id/dotsImageView"
+            android:layout_width="24dp"
+            android:layout_height="20dp"
+            android:src="@drawable/searchh"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/readyyy"
+        android:layout_below="@+id/first"
+        android:padding="16dp">
+
+
+
+        <!-- Second ImageView -->
+        <ImageView
+            android:id="@+id/secondImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/twothree"
+            android:layout_marginStart="16dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/secondImage"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="20dp"
+            tools:ignore="NotSibling">
+
+            <TextView
+                android:id="@+id/headingTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stephen Mack"
+                android:textSize="20dp"
+                android:layout_marginTop="16dp"/>
+
+            <View
+                android:id="@+id/dotView"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_below="@id/headingTextView"
+                android:layout_alignEnd="@id/headingTextView"
+                android:layout_marginTop="-40dp"
+                android:layout_marginEnd="-15dp"
+                android:background="@android:color/holo_orange_light" />
+
+            <!-- Second TextView in the third part -->
+            <TextView
+                android:id="@+id/secondTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photographer"
+                android:layout_below="@id/headingTextView"
+                android:layout_marginTop="8dp"
+                android:layout_alignParentStart="true"/>
+
+            <!-- Third TextView in the third part -->
+            <ImageView
+                android:id="@+id/thirdTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_add_24"
+                android:layout_below="@id/secondTextView"
+                android:layout_marginTop="8dp"
+                android:layout_alignParentStart="true"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/six"
+        android:layout_below="@+id/readyyy"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="93dp"
+            android:layout_height="256dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/ekkk" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="270dp"
+            android:src="@drawable/whiteee"
+            android:layout_toRightOf="@+id/imageView1"
+            android:layout_marginRight="0dp"/>
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="150dp"
+            android:layout_height="270dp"
+            android:src="@drawable/theen"
+            android:layout_toRightOf="@+id/imageView2"
+            android:layout_marginRight="8dp"/>
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/sixss"
+        android:layout_below="@+id/six"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="193dp"
+            android:layout_height="256dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/balls" />
+
+        <TextView
+            android:id="@+id/imageView233"
+            android:layout_width="162dp"
+            android:layout_height="172dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="0dp"
+            android:rotation="90"
+            android:text="450 Projects"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

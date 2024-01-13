@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/first"
+        android:padding="15dp"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/fifthTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/yellowbackground"
+             />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ssgsgs22g"
+        android:layout_below="@+id/first"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_height="150dp">
+
+        <TextView
+            android:id="@+id/fifthTextView122"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Twitter is a social media platform that enables users to share and discover short messages known as tweets. It was created in 2006 by Jack Dorsey, Biz Stone, and Evan Williams"
+            android:layout_marginTop="1dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/fifth"
+        android:gravity="center"
+android:layout_marginLeft="80dp"
+        android:layout_below="@+id/ssgsgs22g"
+        android:layout_height="wrap_content">
+
+        <!-- First Horizontal LinearLayout -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/qaqaqaqqz"
+            android:orientation="horizontal">
+
+            <!-- First TextView in the first LinearLayout -->
+            <TextView
+                android:id="@+id/firstTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+android:textColor="@color/black"
+                android:text="24k"/>
+
+            <!-- Second TextView in the first LinearLayout -->
+            <TextView
+                android:id="@+id/firstTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="789"
+                android:textColor="@color/black"
+
+                android:textSize="30dp"
+
+                android:layout_marginStart="36dp"/>
+
+            <TextView
+                android:id="@+id/firstTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="456"
+                android:textColor="@color/black"
+
+                android:textSize="30dp"
+
+                android:layout_marginStart="36dp"/>
+
+
+        </LinearLayout>
+
+        <!-- Second Horizontal LinearLayout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+
+            android:layout_below="@+id/qaqaqaqqz">
+
+            <!-- Third TextView in the second LinearLayout -->
+
+            <!-- Fourth TextView in the second LinearLayout -->
+            <TextView
+                android:id="@+id/secondTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+
+                android:textSize="15dp"
+                android:text="following" />
+
+            <TextView
+                android:id="@+id/secondTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:text="followers"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/secondTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+
+                android:text="photos"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/firstaa"
+        android:padding="15dp"
+        android:layout_below="@+id/fifth"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/fifthTextView21"
+            android:layout_width="397dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/photos" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/first"
+        android:background="#EAEAEA"
+
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/arrowImageView"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="24dp"
+            android:elevation="4dp"
+
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/menuu" />
+
+        <ImageView
+            android:id="@+id/fifthTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="305dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="-24dp"
+            android:background="#EAEAEA"
+            android:src="@drawable/tonyyy"
+            android:textAlignment="center" />
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/second"
+        android:layout_marginTop="220dp"
+        android:elevation="10dp"
+
+        android:layout_height="wrap_content">
+
+        <!-- Centered ImageView -->
+        <ImageView
+            android:id="@+id/centeredImageView"
+            android:layout_width="308dp"
+            android:layout_height="389dp"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/with" />
+
+        <!-- "+" Symbol TextView -->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/six"
+        android:layout_width="370dp"
+        android:layout_height="79dp"
+        android:layout_below="@+id/second"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:background="#333333"
+        android:layout_marginTop="43dp">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:layout_marginRight="0dp"
+            android:src="@drawable/oneeee" />
+
+        <ImageView
+            android:id="@+id/imageView1333"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/imageView1"
+            android:src="@drawable/twooooo" />
+
+        <ImageView
+            android:id="@+id/imageView133344"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/imageView1333"
+            android:src="@drawable/threeee" />
+
+        <ImageView
+            android:id="@+id/imageView133"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/imageView133344"
+            android:src="@drawable/fourrr" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

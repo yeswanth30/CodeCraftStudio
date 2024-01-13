@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/tonyyy"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/tonyyy"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Stephen"
+        tools:targetApi="31">
+        <activity
+            android:name=".stephenmack"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Stephen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".tony"/>
+        <activity android:name=".tony1"/>
+        <activity android:name=".tony3"></activity>
+        <activity android:name=".tony4"/>
+        <activity android:name=".tony5"></activity>
+        <activity android:name=".tony6"/>
+        <activity android:name=".tony7"/>
+        <activity android:name=".tony8"/>
+        <activity android:name=".tony9"/>
+        <activity android:name=".tony10"/>
+        <activity android:name=".tony11"/>
+        <activity android:name=".tony12"/>
+        <activity android:name=".tony13"/>
+        <activity android:name=".tony14"/>
+        <activity android:name=".tony15"/>
+
+    </application>
+
+</manifest>
